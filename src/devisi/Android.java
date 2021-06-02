@@ -20,7 +20,7 @@ public class Android extends Development implements MenghitungRata{
     
     @Override
     public double hitungRata() {
-        return nilaiAkhir = ((nilaiTes*0.4) + (nilaiCoding*0.35) + (nilaiWawancara*0.25));
+        return nilaiAkhir = ((nilaiTes*0.2) + (nilaiCoding*0.5) + (nilaiWawancara*0.3));
     }
 
     @Override
